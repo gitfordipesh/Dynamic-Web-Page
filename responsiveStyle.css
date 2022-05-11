@@ -10,7 +10,7 @@
 }
 @media(max-width:768px){
     .hamburger{
-        display: block !important;
+        display: block;
     }
     .nav-menu{
         position: fixed;
