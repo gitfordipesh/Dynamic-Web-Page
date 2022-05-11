@@ -1,0 +1,149 @@
+@media(max-width:932px)
+{
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.box-members{
+    width: 100%;
+}
+}
+@media(max-width:768px){
+    .hamburger{
+        display: block !important;
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 50px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+
+    .nav-menu.active{
+        left: 0;
+    }
+    .article{
+        width: 80%;
+        margin: 0;
+    }
+    .btn{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .box{
+        width:50%;
+    }
+    .icon{
+        display: relative;
+        float: right;
+        color: white;
+    }
+    .p2{
+        padding:5px;
+    }
+    .project1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .image img{
+        width: 100vw;
+        padding:0.7em 4em;
+    }
+    .details{
+        padding: 1em;
+        width: 90vw;
+    }
+    .box-members{
+        width: 100%;
+        flex-direction: column;
+    }
+    .plan{
+        width:100%;
+    }
+    .container-contactus{
+        flex-direction: column;
+    }
+    .c1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .c1 #name{
+        width: 100%;
+    }
+    .c1 #mail{
+        width: 100%;
+    }
+    .c1 #subject{
+        width: 100%;
+    }
+    .c2{
+        padding-top: 10px;
+        width:100%;
+
+    }
+}
+@media(max-width:425px){
+    .p2{
+        padding:1.5em;
+        padding-bottom: 3em;
+    }
+    .article{
+        width: 100%;
+        margin: 0px;
+        padding-right: 3rem;
+    }
+    .btn{
+        flex-direction: column;
+        justify-content: center;
+        width: 200px;
+    }
+    #view {
+        padding-bottom: 5px;
+    }
+    h4{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .box{
+        width:100%;
+    }
+    .box1{
+        width: 100%;
+    }
+    .project1{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .img{
+        width: 100vw;
+        margin: auto;
+    }
+    .details{
+        padding: 1em;
+        width: 90vw;
+    }
+    .plan{
+        width:100%;
+    }
+    .box-members{
+        width: 100%;
+        flex-direction: column;
+    }
+    .plan{
+        width:100%;
+    }
+    .container-contactus{
+        flex-direction: column;
+    }
+}
