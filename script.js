@@ -23,7 +23,7 @@ window.addEventListener("scroll", function () {
     }
   })
   // API Data
-let fdata = fetch("https://reqres.in/api/users");
+let fdata = fetch("https://reqres.in/api/users?page=2");
 fdata
   .then((res) => res.json())
   .then((data) => {
