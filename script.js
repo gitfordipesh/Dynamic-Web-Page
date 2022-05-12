@@ -40,7 +40,7 @@ fdata
               <p class="about-person">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur.
               </p>
               <a href="#" target="_blank"><i class="fa-brands fa-twitter blue-text"></i>
-              <span class="tweet blue-text">@nicolewest</span>
+              <span class="tweet blue-text">@${(user.first_name).toLowerCase()}${(user.last_name).toLowerCase()}</span>
               </a>
           </div>
         </div>
