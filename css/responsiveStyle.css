@@ -35,9 +35,10 @@
         padding-left: 4rem;
     }
 
-    .navbar{
+    .navbar {
         padding: 0 3rem;
     }
+
     .article {
         width: 100%;
         margin: 0;
@@ -60,7 +61,7 @@
     }
 
     .p2 {
-        padding: 5px;
+        padding: 3em;
     }
 
     .project1 {
@@ -121,11 +122,10 @@
 @media(max-width:425px) {
     .navbar {
         padding: 0 2rem;
-      }
+    }
 
     .p2 {
         padding: 3em;
-        padding-bottom: 3em;
     }
 
     .article {
@@ -137,7 +137,8 @@
 
     .btn {
         flex-direction: column;
-        justify-content: center;padding-bottom: 5px;
+        justify-content: center;
+        padding-bottom: 5px;
         width: 200px;
     }
 

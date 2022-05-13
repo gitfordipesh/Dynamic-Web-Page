@@ -107,10 +107,12 @@ h2 {
     width: 170px;
     font-size: 1.2em;
 }
-#view:hover{
+
+#view:hover {
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+
 #more {
     height: 50px;
     width: 170px;
@@ -121,9 +123,9 @@ h2 {
     color: white;
 }
 
-#more:hover{
+#more:hover {
     cursor: pointer;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .main-content {
@@ -275,6 +277,7 @@ h3 {
 
 .d1 {
     display: flex;
+    padding-bottom: 10px;
 }
 
 .pricing-plans {
