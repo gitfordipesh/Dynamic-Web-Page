@@ -74,7 +74,7 @@
     }
 
     .details {
-        padding: 1em;
+        padding: 2em;
         width: 90vw;
     }
 
@@ -119,8 +119,12 @@
 }
 
 @media(max-width:425px) {
+    .navbar {
+        padding: 0 2rem;
+      }
+
     .p2 {
-        padding: 1.5em;
+        padding: 3em;
         padding-bottom: 3em;
     }
 
