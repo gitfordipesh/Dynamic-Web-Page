@@ -31,11 +31,17 @@
 
     .nav-menu.active {
         left: 0;
+        align-items: flex-start;
+        padding-left: 4rem;
     }
 
+    .navbar{
+        padding: 0 1rem;
+    }
     .article {
-        width: 80%;
+        width: 100%;
         margin: 0;
+        text-align: left;
     }
 
     .btn {
@@ -122,16 +128,17 @@
         width: 100%;
         margin: 0px;
         padding-right: 3rem;
+        text-align: left;
     }
 
     .btn {
         flex-direction: column;
-        justify-content: center;
+        justify-content: center;padding-bottom: 5px;
         width: 200px;
     }
 
     #view {
-        padding-bottom: 5px;
+        margin-bottom: 1rem;
     }
 
     h4 {
