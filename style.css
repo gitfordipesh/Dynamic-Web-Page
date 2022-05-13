@@ -1,66 +1,72 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background-image: 
-    linear-gradient(45deg, rgba(82, 70, 245, 0.62), rgba(41, 170, 52, 0.58)), url('https://demo.templateflip.com/material-landing/img/panorama-3094696_1920.jpg');
+    background-image:
+        linear-gradient(45deg, rgba(82, 70, 245, 0.62), rgba(41, 170, 52, 0.58)), url('https://demo.templateflip.com/material-landing/img/panorama-3094696_1920.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    font-family: 'Roboto', sans-serif; 
+    font-family: 'Roboto', sans-serif;
 }
 
-header{
+header {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
-    inset 0 0 1px rgba(255, 255, 255, 0.6);
+        inset 0 0 1px rgba(255, 255, 255, 0.6);
     color: whitesmoke;
-    padding : 10px 0px;
+    padding: 10px 0px;
     font-size: 1.2em;
     overflow: hidden;
     position: sticky;
     top: 0;
     z-index: 2;
 }
-li{
+
+li {
     list-style: none;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
 
-.navbar{
+.navbar {
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 24px;
 }
-.nav-menu{
+
+.nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
 }
 
-.nav-branding{
+.nav-branding {
     padding: 5px;
 }
 
-.nav-link{
+.nav-link {
     color: white;
 }
-.nav-link{
+
+.nav-link {
     transition: 0.7s ease;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: rgb(199, 199, 202);
 }
-#download{
+
+#download {
     height: 25px;
     width: 110px;
     font-size: 0.8em;
@@ -68,11 +74,13 @@ a{
     color: whitesmoke;
     border-style: none;
 }
-.hamburger{
+
+.hamburger {
     display: none;
     cursor: pointer;
 }
-.bars{
+
+.bars {
     display: block;
     width: 23px;
     height: 3px;
@@ -81,6 +89,7 @@ a{
     transition: all 0.3s ease-in-out;
     background-color: white;
 }
+
 h2 {
     font-weight: bolder;
     padding: 10px 0px;
@@ -113,6 +122,7 @@ h2 {
 .main-content {
     height: max-content;
 }
+
 .article {
     width: 50vw;
     padding: 7rem;
@@ -147,7 +157,8 @@ h3 {
 .p1 {
     padding: 50px 20px;
 }
-.box{
+
+.box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -157,6 +168,7 @@ h3 {
     width: 25%;
     padding-top: 20px;
 }
+
 .agile {
     background-color: #6f42c1;
 }
@@ -176,9 +188,11 @@ h3 {
 .work {
     background-color: rgba(229, 242, 245, 0.87);
 }
-.projects{
+
+.projects {
     background-color: white;
 }
+
 .why {
     padding-top: 100px;
 }
@@ -188,7 +202,8 @@ h3 {
     flex-wrap: wrap;
     justify-content: center;
 }
-.box1{
+
+.box1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,116 +212,144 @@ h3 {
     color: black;
     width: 33%;
 }
-.image img{
+
+.image img {
     width: 40vw;
-    padding:0.7em 4em;
+    padding: 0.7em 4em;
 }
-.dropshadow{
+
+.dropshadow {
     filter: drop-shadow(0px 0px 5px grey);
 }
-.orange-text{
+
+.orange-text {
     color: orange;
 }
-.blue-text{
+
+.blue-text {
     color: skyblue;
 }
-.indigo-text{
-    color:#3949ab;
+
+.indigo-text {
+    color: #3949ab;
 }
-.red-text{
+
+.red-text {
     color: red;
 }
-.purple-text{
+
+.purple-text {
     color: #6f42c1;
 }
-.project1{
+
+.project1 {
     display: flex;
     justify-content: space-around;
     padding-bottom: 1.5em;
 }
-.icon{
+
+.icon {
     padding: 5px;
 }
-.details{
-    padding:0.7rem 3em;
-    width:50%;
+
+.details {
+    padding: 0.7rem 3em;
+    width: 50%;
 }
-.cont{
+
+.cont {
     padding-left: 30px;
 }
-.cont h3{
+
+.cont h3 {
     text-align: left;
 }
-.d1{
+
+.d1 {
     display: flex;
 }
-.pricing-plans{
+
+.pricing-plans {
     background-color: #3949ab;
     color: white;
     padding: 10px 0px 100px 0px;
 }
-.plans{
+
+.plans {
     display: flex;
     flex-wrap: wrap;
 }
-.plan{
-    background-image: 
-    linear-gradient(45deg, rgba(82, 70, 245, 0.62), rgba(41, 170, 52, 0.58)), url('https://demo.templateflip.com/material-landing/img/architecture.jpg');
-    
+
+.plan {
+    background-image:
+        linear-gradient(45deg, rgba(82, 70, 245, 0.62), rgba(41, 170, 52, 0.58)), url('https://demo.templateflip.com/material-landing/img/architecture.jpg');
+
     width: 30%;
-    margin:5px auto ;
+    margin: 5px auto;
     padding-top: 10px;
 }
-.plan-1{
-    background-image: 
-    linear-gradient(45deg, rgba(30, 33, 29, 0.62), rgba(0, 0, 0, 0.58)), url('https://demo.templateflip.com/material-landing/img/architecture.jpg');
+
+.plan-1 {
+    background-image:
+        linear-gradient(45deg, rgba(30, 33, 29, 0.62), rgba(0, 0, 0, 0.58)), url('https://demo.templateflip.com/material-landing/img/architecture.jpg');
 }
-.plan-2{
-    background-image: 
-    linear-gradient(45deg, rgba(0, 255, 242, 0.62), rgba(2, 255, 242, 0.58)), url('https://demo.templateflip.com/material-landing/img/architecture.jpg');
+
+.plan-2 {
+    background-image:
+        linear-gradient(45deg, rgba(0, 255, 242, 0.62), rgba(2, 255, 242, 0.58)), url('https://demo.templateflip.com/material-landing/img/architecture.jpg');
 }
-.plan-3{
-    background-image: 
-    linear-gradient(45deg, rgba(255, 83, 83, 0.62), rgba(255, 0, 0, 0.58)), url('https://demo.templateflip.com/material-landing/img/architecture.jpg');
+
+.plan-3 {
+    background-image:
+        linear-gradient(45deg, rgba(255, 83, 83, 0.62), rgba(255, 0, 0, 0.58)), url('https://demo.templateflip.com/material-landing/img/architecture.jpg');
 }
-.heading{
+
+.heading {
     padding: 30px 0 0 0;
 }
-.pricing{
+
+.pricing {
     text-align: center;
     padding: 48px 0;
 }
-.currency{
+
+.currency {
     font-size: 3.5rem;
     font-weight: 300;
     line-height: 1.2;
 }
-.value{
+
+.value {
     font-size: 6rem;
     font-weight: 300;
     line-height: 1.2;
 }
-.time{
+
+.time {
     font-size: 3.5rem;
     font-weight: 300;
     line-height: 1.2;
 }
-.pricing-list{
+
+.pricing-list {
     list-style-type: none;
 }
-.list-element p{
+
+.list-element p {
     text-align: center;
     margin-top: 0;
-margin-bottom: 1rem;
-font-size: 1.1em;
+    margin-bottom: 1rem;
+    font-size: 1.1em;
 }
-.buy-now-button{
+
+.buy-now-button {
     display: flex;
     justify-content: center;
-    padding:50px 0px;
+    padding: 50px 0px;
     justify-content: center;
 }
-.buy{
+
+.buy {
     height: 50px;
     width: 120px;
     font-size: 1.1em;
@@ -315,72 +358,89 @@ font-size: 1.1em;
     border-radius: 2px;
     color: white;
 }
-.buy:hover{
+
+.buy:hover {
     box-shadow: 0px 0px 18px #888888;
     cursor: pointer;
 }
-.team-container{
+
+.team-container {
     background-color: white;
     color: black;
 }
-.container{
+
+.container {
     background-color: azure;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
 }
-.box-members{
+
+.box-members {
     display: flex;
     padding: 10px;
     width: 50%;
-  
+
     color: black;
 }
-.image-m1{
-    padding:0 15px;
+
+.image-m1 {
+    padding: 0 15px;
 }
-.data{
-    padding:0 15px;
+
+.data {
+    padding: 0 15px;
 }
-.data h3{
+
+.data h3 {
     text-align: left;
 }
-.data .designation{
-    color: #607d8b ;
+
+.data .designation {
+    color: #607d8b;
     padding: 7px 0px;
 }
-.data .about-person{
+
+.data .about-person {
     padding: 15px 0px;
 }
-.blue-text{
+
+.blue-text {
     color: blue;
 }
-.contact-us{
-    background-image: 
-    linear-gradient(45deg, rgba(82, 70, 245, 0.62), rgba(41, 170, 52, 0.58)), url('https://demo.templateflip.com/material-landing/img/panorama-3094696_1920.jpg');
+
+.contact-us {
+    background-image:
+        linear-gradient(45deg, rgba(82, 70, 245, 0.62), rgba(41, 170, 52, 0.58)), url('https://demo.templateflip.com/material-landing/img/panorama-3094696_1920.jpg');
     color: white;
     padding-bottom: 100px;
 }
-.contact-form{
+
+.contact-form {
     background-color: white;
     border-radius: 5px;
-    padding:80px 50px;
+    padding: 80px 50px;
 }
-.container-contactus{
+
+.container-contactus {
     display: flex;
 }
-.c1{
-    width:70%;
+
+.c1 {
+    width: 70%;
 }
-.c2{
-    width:30%;
+
+.c2 {
+    width: 30%;
 }
-.c2 p{
+
+.c2 p {
     text-align: center;
     color: black;
     padding: 10px 0px;
 }
-#name{
+
+#name {
     height: 50px;
     width: 30%;
     border: 0px transparent;
@@ -388,56 +448,66 @@ font-size: 1.1em;
     font-size: 1.1em;
     margin-bottom: 2px;
 }
-#mail{
+
+#mail {
     height: 50px;
     width: 30%;
     border: 0px transparent;
     padding: 0px 5px;
     font-size: 1.1em;
 }
-#subject{
+
+#subject {
     height: 50px;
     width: 61%;
-    border: 0px transparent;
-    padding: 0px 5px;  
-    font-size: 1.1em;
-}
-#msg{
     border: 0px transparent;
     padding: 0px 5px;
     font-size: 1.1em;
 }
-.send{
+
+#msg {
+    border: 0px transparent;
+    padding: 0px 5px;
+    font-size: 1.1em;
+}
+
+.send {
     background-color: #3949ab;
     color: white;
     height: 50px;
     width: 120px;
     font-size: 1.1em;
 }
-footer{
+
+footer {
     color: whitesmoke;
     font-size: 1.2em;
 }
-.fa-brands{
-    padding:5px;
+
+.fa-brands {
+    padding: 5px;
 }
-.social-media{
+
+.social-media {
     background-color: #3949ab;
     padding: 15px 0px;
     display: flex;
     justify-content: center;
 }
-.copy-box{
+
+.copy-box {
     background-color: #2d366d;
     padding: 10px 0px;
     display: flex;
     width: 100%;
 }
-.copy{
+
+.copy {
     margin: auto;
     text-align: center;
 }
-.service{
+
+.service {
     width: 90%;
     margin: auto;
 }

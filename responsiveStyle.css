@@ -1,18 +1,20 @@
-@media(max-width:932px)
-{
-.container{
-    display: flex;
-    flex-direction: column;
+@media(max-width:932px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-members {
+        width: 100%;
+    }
 }
-.box-members{
-    width: 100%;
-}
-}
-@media(max-width:768px){
-    .hamburger{
+
+@media(max-width:768px) {
+    .hamburger {
         display: block;
     }
-    .nav-menu{
+
+    .nav-menu {
         position: fixed;
         left: -100%;
         top: 50px;
@@ -22,128 +24,159 @@
         text-align: center;
         transition: 0.3s;
     }
-    .nav-item{
+
+    .nav-item {
         margin: 16px 0;
     }
 
-    .nav-menu.active{
+    .nav-menu.active {
         left: 0;
     }
-    .article{
+
+    .article {
         width: 80%;
         margin: 0;
     }
-    .btn{
+
+    .btn {
         flex-direction: row;
         justify-content: space-between;
     }
-    .box{
-        width:50%;
+
+    .box {
+        width: 50%;
     }
-    .icon{
+
+    .icon {
         display: relative;
         float: right;
         color: white;
     }
-    .p2{
-        padding:5px;
+
+    .p2 {
+        padding: 5px;
     }
-    .project1{
+
+    .project1 {
         flex-direction: column;
         justify-content: center;
     }
-    .image img{
+
+    .image img {
         width: 100vw;
-        padding:0.7em 4em;
+        padding: 0.7em 4em;
     }
-    .details{
+
+    .details {
         padding: 1em;
         width: 90vw;
     }
-    .box-members{
+
+    .box-members {
         width: 100%;
         flex-direction: column;
     }
-    .plan{
-        width:100%;
+
+    .plan {
+        width: 100%;
     }
-    .container-contactus{
+
+    .container-contactus {
         flex-direction: column;
     }
-    .c1{
+
+    .c1 {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-bottom: 10px;
     }
-    .c1 #name{
+
+    .c1 #name {
         width: 100%;
     }
-    .c1 #mail{
+
+    .c1 #mail {
         width: 100%;
     }
-    .c1 #subject{
+
+    .c1 #subject {
         width: 100%;
     }
-    .c2{
+
+    .c2 {
         padding-top: 10px;
-        width:100%;
+        width: 100%;
 
     }
 }
-@media(max-width:425px){
-    .p2{
-        padding:1.5em;
+
+@media(max-width:425px) {
+    .p2 {
+        padding: 1.5em;
         padding-bottom: 3em;
     }
-    .article{
+
+    .article {
         width: 100%;
         margin: 0px;
         padding-right: 3rem;
     }
-    .btn{
+
+    .btn {
         flex-direction: column;
         justify-content: center;
         width: 200px;
     }
+
     #view {
         padding-bottom: 5px;
     }
-    h4{
+
+    h4 {
         position: relative;
         top: 0;
         left: 0;
     }
-    .box{
-        width:100%;
-    }
-    .box1{
+
+    .box {
         width: 100%;
     }
-    .project1{
+
+    .box1 {
+        width: 100%;
+    }
+
+    .project1 {
         flex-direction: column;
         justify-content: center;
     }
-    .img{
+
+    .img {
         width: 100vw;
         margin: auto;
     }
-    .details{
+
+    .details {
         padding: 1em;
         width: 90vw;
     }
-    .plan{
-        width:100%;
+
+    .plan {
+        width: 100%;
     }
-    .box-members{
+
+    .box-members {
         width: 100%;
         flex-direction: column;
     }
-    .plan{
-        width:100%;
+
+    .plan {
+        width: 100%;
     }
-    .container-contactus{
+
+    .container-contactus {
         flex-direction: column;
     }
 }
